@@ -1,4 +1,4 @@
-# CodeFiddle
+# PlayGround
 
 Ever used sites like CodeSandbox, or codedamn? Wondered how they've built their code editors to be so customisable while integrating personalised features like open collaboration? This project is a take on how a site like this could be built.
 
@@ -37,7 +37,7 @@ Note: The project was built in a Linux based environment, and is untested on Win
 Clone the project
 
 ```bash
-git clone https://github.com/rajatmaheshwari2512/CodeFiddle
+git clone ''
 ```
 
 Switch to the frontend and install dependencies
@@ -77,7 +77,7 @@ npm start
 
 ## Roadmap
 
-- **The move to Kubernetes**: The current setup is based on Docker, and exposes a port on the running container, which reflects the changes that are made to files on the container. This approach is fine for testing purposes, but there are only so many ports available, not to mention the load on the device hosting the docker containers. Switching to Kubernetes and serving content through an Ingress Controller, will kill reliance on ports, and allow the user to access his container on a subdomain, for example, https://testing.codefiddle.com.
+- **The move to Kubernetes**: The current setup is based on Docker, and exposes a port on the running container, which reflects the changes that are made to files on the container. This approach is fine for testing purposes, but there are only so many ports available, not to mention the load on the device hosting the docker containers. Switching to Kubernetes and serving content through an Ingress Controller, will kill reliance on ports, and allow the user to access his container on a subdomain, for example, https://testing.playground.com.
 
 - **Ensuring Collaborative Editing**: The current setup of the project allows only a single user to make changes to the file, which limits what the project can do. The foundations for making a collaborative editor are in the project, but are quite barebones, and the most important feature of the project, i.e., actually allowing realtime changes is still missing.
 
