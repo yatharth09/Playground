@@ -6,9 +6,7 @@ The basic layout provides a VS Code experience, wherein a user can navigate betw
 
 Integrated with this is also an iframe providing realtime feedback to changes you may make in your project. The various components in this project, like the Code Editor, and the Browser Previews are freely resizable, so you can set them to a size that provides the most optimal working environment for you.
 
-## Authors
 
-- [@rajatmaheshwari2512](https://www.github.com/rajatmaheshwari2512)
 
 ## Contributing
 
